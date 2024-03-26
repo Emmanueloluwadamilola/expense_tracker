@@ -1,9 +1,12 @@
 // ignore_for_file: unused_field
 
 import 'package:expense_tracker/expense_data.dart';
-import 'package:flutter/material.dart';
 
 class ExpenseState {
   List<ExpenseModel> myLIst = [];
- final TextEditingController titleController = TextEditingController();
+  List<ExpenseModel> deletedList = [];
+  DateTime date = DateTime.now();
+  String expenseTitle = '';
+  double expenseAmount = 0.0;
+  Category expenseCategory = Category.leisure;
 }
