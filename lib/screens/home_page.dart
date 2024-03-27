@@ -1,10 +1,8 @@
-import 'package:expense_tracker/chart/chart.dart';
-import 'package:expense_tracker/expense_data.dart';
 import 'package:expense_tracker/provider/expense_provider.dart';
-import 'package:expense_tracker/widgets/bottom_sheet.dart';
-import 'package:expense_tracker/widgets/expense_listview.dart';
+import 'package:expense_tracker/screens/widgets/bottom_sheet.dart';
+import 'package:expense_tracker/screens/widgets/chart/chart.dart';
+import 'package:expense_tracker/screens/widgets/expense_listview.dart';
 import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
